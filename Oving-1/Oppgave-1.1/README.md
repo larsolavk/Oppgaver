@@ -1,21 +1,8 @@
-# Oppgave 1 - Finn hunden!
+# Oppgave 1.1 - Lag spillet i kode!
 
-![dog-in-a-box](./img/dog-box.jpg)
-
-> Hunden din er av den lekne typen og liker å spille spill med deg. Den har nå laget sitt eget spill der den gjemmer seg i esker og den vil at du skal prøve å finne den.
-
-> ## Regler
-> * Foran deg har du 5 lukkede esker på en rekke. 
-> * Hunden din har gjemt seg i en av disse eskene, men du vet ikke i hvilken. 
-> * Du kan gjette så mange ganger du vil, men hver gang du gjetter vil hunden din flytte seg til esken til høyre eller venstre for den esken den var i.
-> * Dersom hunden befinner seg i esken lengst til venstre kan den kun flytte seg til høyre
-> * Dersom hunden befinner seg i esken lengst til høyre kan den kun flytte seg til venstre
-> * Når du finner hunden er spillet over.
-
-
-## Oppgave 1a - Lag spillet i kode!
 Vi skal nå "modellere" spillet i kode. Utfør ett punkt av gangen og sørg for at ting fungerer (koden kompilerer) etter hvert punkt. IKKE gå videre til neste punkt før alt er OK i forrige punkt.
 
+## Oppgave 1.1 a)
 * **Lag en klasse og gi den navnet "Spill"**
 * **Lag en array som medlemsvariabel i Spill-klassen.**
   * Denne skal representere eskene i spillet så du kan kalle den "esker". 
@@ -33,7 +20,7 @@ Vi skal nå "modellere" spillet i kode. Utfør ett punkt av gangen og sørg for 
   * Metoden returnerer verdien fra esken i esker-arrayen som angis som parameter
   * Før metoden returnerer må du gjøre et kall mot "nesteRunde"-metoden som flytter hunden.
 
-## Oppgave 1b - Lag en testklient
+## Oppgave 1.1 b) - Lag en enkel testklient
 * **Opprett en klasse og gi den navnet "Testklient"**
 * **Opprett metoden/funksjonen main i Testklient-klassen**
   * Opprett en ny instans av Spill-klassen med 5 esker.
